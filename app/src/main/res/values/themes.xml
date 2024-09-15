@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ShayriApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- You can define colors for your app, such as colorPrimary, here if needed. -->
+    </style>
+
+    <style name="Theme.ShayriApp" parent="Base.Theme.ShayriApp" />
+
+    <!-- Theme without ActionBar -->
+    <style name="Theme.ShayriApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- App bar overlay -->
+    <style name="Theme.ShayriApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Popup overlay theme -->
+    <style name="Theme.ShayriApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Collapsed title text appearance -->
+    <style name="CollapsedAppBarTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item> <!-- White color for collapsed state -->
+        <item name="android:textSize">20sp</item> <!-- Adjust size if needed -->
+    </style>
+
+    <!-- Expanded title text appearance -->
+    <style name="ExpandedAppBarTitleStyle" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">#FFFFFF</item> <!-- White color for expanded state -->
+        <item name="android:textSize">24sp</item> <!-- Adjust size if needed -->
+    </style>
+</resources>
